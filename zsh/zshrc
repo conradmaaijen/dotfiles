@@ -19,10 +19,10 @@ export PATH=$HOME/.composer/vendor/bin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
-if [ -f ~/.aliases ]; then
+if [ -f ~/.zsh_aliases ]; then
   . ~/.zsh_aliases
 fi
-if [ -f ~/.zsh_function ]; then
+if [ -f ~/.zsh_functions ]; then
   . ~/.zsh_functions
 fi
 
