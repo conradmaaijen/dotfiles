@@ -30,3 +30,12 @@ ln -s "$DOTFILES/nvim/lua" "$HOME/.config/nvim/lua"
 
 rm -rf "$HOME/.config/notes/config"
 ln -s "$DOTFILES/notes/config" "$HOME/.config/notes/config"
+
+rm -rf "$HOME/.config/karabiner/karabiner.json"
+ln -s "$DOTFILES/karabiner/karabiner.json" "$HOME/.config/karabiner/karabiner.json"
+
+rm -rf "$HOME/.config/skhd/skhdrc"
+ln -s "$DOTFILES/skhd/skhdrc" "$HOME/.config/skhd/skhdrc"
+
+rm -rf "$HOME/.config/yabai/yabairc"
+ln -s "$DOTFILES/yabai/yabairc" "$HOME/.config/yabai/yabairc"
