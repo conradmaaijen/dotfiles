@@ -1,8 +1,8 @@
 # Config files
-alias zshconfig="nano ~/.zshrc"
-alias ohmyzsh="nano ~/.oh-my-zsh"
-alias aliases="nano ~/.dotfiles/aliases.zsh"
-
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
+alias aliases="nvim ~/.dotfiles/aliases.zsh"
+alias nvimconfig="nvim ~/.config/nvim/lua/custom/"
 alias vim="nvim"
 
 # cd
@@ -89,3 +89,10 @@ alias arl="php artisan route:list"
 alias amc="php artisan make:controller"
 alias amm="php artisan make:migration"
 alias ammm="php artisan make:migration -m "
+
+# Lazygit
+alias lg="lazygit"
+
+alias fb="fzf --preview 'bat --style=numbers --color=always {}'"
+alias fc="find . -maxdepth 2 -type f | fzf | pbcopy"
+

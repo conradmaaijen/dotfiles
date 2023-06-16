@@ -5,9 +5,9 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    items=`find ~/dev -maxdepth 1 -mindepth 1 -type d`
-    items+=`echo -e "\n/tmp"`
-    selected=`echo "$items" | fzf`
+    items=$(find ~/dev -maxdepth 1 -mindepth 1 -type d)
+    items+=$(echo -e "\n~/Notes")
+    selected=$(echo "$items" | fzf)
 fi
 
 dirname=`basename $selected | sed 's/\./_/g'`
